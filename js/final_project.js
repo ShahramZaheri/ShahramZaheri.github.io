@@ -10,7 +10,7 @@ function logincheck(){
     docRef.get().then(function(doc) {
         console.log(doc.data().username);
     if (user_name==doc.data().username && password==doc.data().password){
-        window.location.href="index.html";
+        window.location.href="home.html";
     } else {
         
         document.getElementById("login_error_alaram").innerHTML="Wrong login info! Please see the hints";

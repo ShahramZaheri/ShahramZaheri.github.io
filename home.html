@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Metallurgical Experience-Lumex Instruments</title>
+        <title>Home</title>
         <meta charset="utf-8">
+        
+        
+        <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyC2h6X2Ox03RMY_doXY5zJtD3EjgTAkUQA",
+            authDomain: "personal-website-aca37.firebaseapp.com",
+            databaseURL: "https://personal-website-aca37.firebaseio.com",
+            projectId: "personal-website-aca37",
+            storageBucket: "personal-website-aca37.appspot.com",
+            messagingSenderId: "540839210800"
+          };
+          firebase.initializeApp(config);
+        </script>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="css/final_project.css" rel="stylesheet">
@@ -20,13 +36,13 @@
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="education.html">Education</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="metallurgical%20experience.html">Metallurgical Experience</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -54,21 +70,14 @@
                     </ul>
                 </div>
         </nav>
-        <div class="container m-auto p-3 bg-light">
-             <p><a href="https://www.lumexinstruments.com/">Lumex Instruments</a> manufactures analytical and testing instrumetns. As a sales specialist, my job in Lumex Instrumetns was to contact clients in order to understand their needs, and offer them customized solutions. In this position, I worked closely with the application engineers. </p>
-            <p> My favorite equipment in Lumex Instruments was mercury analyzer. Lumex Instruments have a complete pack of equipment to analyze mercury in different phases. The High Frequency Zeeman background correction technique that they have used in their mercury analyzers enables their analyzers to test mercury in wide range of samples with no or minimum sample preparation.</p>
-            <p> Mercury measurement is needed in different industries, from coal power plants to fish processing factories. However, probably the most important industry that tackles with mercury pollution is Artisinal and Small Scale Gold Mining (ASSGM). Traditionally mercury is known to be a good solvent to extract gold from its ore. However, the use of mercury in ASSGM is of greate concern as the amount of mercury which is released to environment during the process is significanly above the allowable limit. Direct contact with mercury is a threat for well-being of many worker in small gold mines.</p>
-            
-
-
-
-        
-            
-    
-            
+        <div class="container m-auto p-3 bg-light overflow-auto">
+            <img src="images/Shahram's%20picture.jpg" class="rounded float-right" width="400" height="300" alt="Shahram's picture" >
+            <p>
+                Hello and welcome to my website. In this website you can find general information about me, including my education, my work experience, etc. Please do not hesitate to contact me if you have any specific questions.
+            </p>
         
         </div>
-         <!-- Footer -->
+    <!-- Footer -->
         <footer>
 
             <div class="footer-copyright text-center py-3">©Shahram Zaheri, Last updated March 2019</div>
