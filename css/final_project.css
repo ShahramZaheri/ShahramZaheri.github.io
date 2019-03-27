@@ -1,0 +1,27 @@
+canvas{
+    border: solid 5px black;
+    margin-left: auto;
+    margin-right: auto;
+    }
+body{
+    margin:0px;
+    }
+#graduation_photo{
+    border: solid 1px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#metallurgical_resume{
+    display: block;
+    width: 90%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#heat_flow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
