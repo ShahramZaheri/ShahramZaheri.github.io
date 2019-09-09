@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Login Page</title>
+        <title>Home</title>
         <meta charset="utf-8">
         
         
@@ -29,25 +29,45 @@
     
     <body>
         
-        
-        <div class="container mx-auto mt-4 p-4 bg-light overflow-auto text-center">
-            <form>
-        
-                <label for="UserName" class="mt-4">User Name:</label>
-                <input type="text" id="UserName" class="form-control col-3 mx-auto" aria-describedby="UserNamedHelpBlock">
-                <small id="UserNameHelpBlock" class="form-text text-muted">
-                  Hint: please enter "Shahram".
-                </small>
-
-                <label for="password" class="mt-4">Password:</label>
-                <input type="password" id="password" class="form-control col-3 mx-auto" aria-describedby="passwordHelpBlock">
-                <small id="passwordHelpBlock" class="form-text text-muted">
-                  Hint: please enter "Zaheri".
-                </small>
-                <button type="button" class="btn btn-primary my-4" onclick="logincheck()"> Login</button>
-                <p id="login_error_alaram"></p>
-            
-            </form>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Shahram Zaheri</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="education.html">Education</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="metallurgical%20experience.html">Metallurgical Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="computer_projects.html">Computer Projects</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Resume
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="resume.html">Metallurgist</a>
+                                <a class="dropdown-item" href="resume_computer_engineer.html">Computer Engineer</a>
+                                
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+        </nav>
+        <div class="container m-auto p-3 bg-light overflow-auto">
+            <img src="images/Shahram's%20picture.jpg" class="rounded float-right" width="400" height="300" alt="Shahram's picture" >
+            <p>
+                Hello and welcome to my website. My name is Shahram Zaheri. I am an undergrad computer science student at Simon Fraser University. I also have done studies in chemical engineering and metallurgy. In this website, I am trying to provide some information about my work experience and the projects that I've done. Please do not hesitate to email me (shahram.zaheri@gmail.com) if you have any questions.
+            </p>
         
         </div>
     <!-- Footer -->
